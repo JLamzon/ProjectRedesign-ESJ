@@ -1,0 +1,15 @@
+.navbar23{
+    display: flex;
+    justify-content: end;
+}
+.no89{
+   -webkit-text-fill-color: #ad3400;
+}
+.tepaLogo
+{
+    color: black;
+	font-size: 34px;
+	-webkit-text-stroke: 1px #ad3400;
+	-webkit-text-fill-color: white;
+   
+}
