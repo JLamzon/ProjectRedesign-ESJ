@@ -1,0 +1,30 @@
+/* NavBar */
+
+.NavSpacing
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Carousel */
+
+.carouselHeight
+{
+    max-height: 700px;
+    object-fit: scale-down;
+}
+
+/* footer */
+
+.footAlignText
+{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.footChild
+{
+    display: grid;
+    justify-content: center;
+}
