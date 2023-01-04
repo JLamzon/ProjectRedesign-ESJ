@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+
+.imgdoordash {
+    
+    width: 300px;
+    height: 300px;
+}
+
+.imggrubhub {
+    width: 300px;
+    height: 300px;
+}
+
+.imgpostmates {
+    width: 300px;
+    height: 300px;
+}
+
+.imgubereats {
+    width: 300px;
+    height: 300px;
+}
+
+.img-fluid {
+        width: 2000px;
+        height: 400px;
+        object-fit: cover;
+}
