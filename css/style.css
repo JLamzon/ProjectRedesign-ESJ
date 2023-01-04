@@ -1,11 +1,33 @@
 /* NavBar */
 
+
+/* .navbar-Nav > *{
+    text-align: left;
+} */
+
+
+
 .NavSpacing
 {
     display: flex;
     justify-content: flex-end;
 }
 
+@media (min-width: 992px)
+{
+    .navRightMenu{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 991px)
+{
+    .navLeftMenu{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
 
 /* Carousel */
 
@@ -13,6 +35,13 @@
 {
     max-height: 700px;
     object-fit: scale-down;
+}
+
+.logoTepa
+{
+    font-size: 30px;
+    color: brown;
+    border-color: aqua;
 }
 
 /* footer */
@@ -27,4 +56,64 @@
 {
     display: grid;
     justify-content: center;
+}
+
+.footerBorder
+{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    align-items: center;
+    overflow: auto;
+}
+
+/* .footerBorder > div
+{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: auto;
+} */
+
+/* @media (max-width: 426)
+{
+    .footerBorder
+    {
+        max-height: 10rem;
+        display: flex;
+        flex-direction: row;
+    }
+} */
+
+.footerIcons
+{
+    max-height: 2rem;
+    padding-left: 10px;
+}
+
+.footIconParentMargin
+{
+    margin-left: 0;
+}
+
+.copyRight
+{
+    max-height: 2rem;
+    color: white;
+}
+
+@media (max-width: 426px)
+{
+    .footerIcons
+    {
+        height: 25px;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .footerInfo
+    {
+        display: none;
+    }
 }
