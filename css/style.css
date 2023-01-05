@@ -1,3 +1,11 @@
+.BGimage{
+    background-image: url("../assets/icons/o\ \(1\).jpg");
+    background-color: #cccccc; 
+    height: 1350px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
 .navbar23{
     display: flex;
     justify-content: end;
@@ -7,9 +15,65 @@
 }
 .tepaLogo
 {
-    color: black;
-	font-size: 34px;
-	-webkit-text-stroke: 1px #ad3400;
+	-webkit-text-stroke: 2px #ad3400;
 	-webkit-text-fill-color: white;
+    text-align: start;
+    padding-left: 5%;
+    font-weight: bolder;
+    
+    
+    
    
+}
+.taquLogo
+{
+	font-size: 34px;
+	-webkit-text-stroke: 2px #ad3400;
+	-webkit-text-fill-color: #ffa234;
+    font-weight: bolder;
+    
+    
+}
+.headerContainer
+{
+    background-color: white;
+}
+.reachUs
+{
+ width: 50%;
+ height: 280px;
+    background: #d9d9d9 0% 0% no-repeat padding-box;
+opacity: 0.8;
+margin-left: 25%;
+margin-top: 10%;
+}
+.reachText
+{
+    -webkit-text-fill-color: #49111c;
+   font-size: 550%;
+}
+.contactInfo
+{
+    height: 300px;
+    background: #d9d9d9 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    margin-top: 10%;
+
+}
+.font49
+{
+    font-size: 450%;
+    -webkit-text-fill-color: #49111c;
+    
+}
+.font47
+{
+    font-size: 200%;
+    -webkit-text-fill-color: #49111c;
+}
+.font46
+{
+    font-size: 250%;
+    font-weight:400;
+    -webkit-text-fill-color: #49111c;
 }
