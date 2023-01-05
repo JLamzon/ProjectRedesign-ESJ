@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Tepa Taqueria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kameron&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Navbar ------------------------ -->
@@ -30,23 +33,44 @@
       <!-- NavBar End ------------------------>
 
       <!-- Carousel -------------------------->
-      <!-- data-interval="500"  data-bs-ride="carousel" -->
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner carouselHeight">
-          <div class="carousel-item active">
+      
+      <div id="carouselExample" class="carousel-fade buttonParent">
+        <!-- <div class="col-md-12 hover-slide text-center">
+          <a href="#page-intro" class="btn btn-default start-me">Let's go</a>
+          <a href="#page-intro" class="btn btn-default start-me">Let's go</a>
+        </div> -->
+        <div class="d-flex justify-content-center">
+        <div class="col-md-12 hover-slide">
+          <a href="#page-intro" class="btn btn-default start-me">Let's go</a>
+        </div>
+        <div class="col-md-12 hover-slide-2">
+          <a href="#page-intro" class="btn btn-default start-me">Let's go</a>
+        </div>
+      </div>
+        <div class="carousel-inner carouselHeight" data-bs-ride="carousel">
+          <div class="carousel-item active" data-bs-interval="10000">
             <img class="tacoCarousel carouselTaco" src="./assets/Tepa-Taqueria-2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-lg-block ">
               <p class="carouselText">#1 Mexican Restaurant on Yelp</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="10000">
             <img src="./assets/Tepa-Taco-2.jpeg" class="d-block w-100 carouselImages" alt="...">
+            <div class="carousel-caption d-none d-lg-block ">
+              <p class="carouselText">#1 Mexican Restaurant on Yelp</p>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="10000">
             <img src="./assets/Tepa-Home-Soup.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-lg-block ">
+              <p class="carouselText">#1 Mexican Restaurant on Yelp</p>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="10000">
             <img src="./assets/tostada wrap.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-lg-block ">
+              <p class="carouselText">#1 Mexican Restaurant on Yelp</p>
+            </div>
           </div>
         </div>
         <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -65,7 +89,7 @@
 
       <section>
         <!-- Footer -->
-        <footer class="text-black footAlignText">
+        <footer class="text-black footAlignText footerBackground">
           <!-- Grid container -->
           <div class="container p-4 footerInfo">
             <!--Grid row-->

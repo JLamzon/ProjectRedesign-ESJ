@@ -5,25 +5,20 @@
     text-align: left;
 } */
 
-
-
-.NavSpacing
-{
+.NavSpacing {
     display: flex;
     justify-content: flex-end;
 }
 
-@media (min-width: 992px)
-{
-    .navRightMenu{
+@media (min-width: 992px) {
+    .navRightMenu {
         display: flex;
         justify-content: flex-end;
     }
 }
 
-@media (min-width: 991px)
-{
-    .navLeftMenu{
+@media (min-width: 991px) {
+    .navLeftMenu {
         display: flex;
         justify-content: flex-start;
     }
@@ -37,37 +32,98 @@
     max-height: 1080px;
 } */
 
-.carouselHeight img
+.buttonParent {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .hover-slide {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .hover-slide-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .hover-slide {
+        position: absolute;
+        /*margin-left: 30%;*/
+        z-index: 99;
+        top: 50%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .hover-slide-2 {
+        position: absolute;
+        /*margin-left: 30%;*/
+        z-index: 99;
+        top: 40%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width: 767px)
 {
+    .hover-slide{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hover-slide-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+.carousel-item {
+    transition: transform 3.6s ease-in-out;
+}
+
+.carouselHeight img {
     min-width: 100%;
     max-height: 680px;
     object-fit: cover;
     overflow: hidden;
 }
 
-.tacoCarousel
-{
+.tacoCarousel {
     max-width: 100%;
     min-height: 576px;
-    viewport-fit:auto;
+    viewport-fit: auto;
     object-fit: cover;
     overflow: hidden;
 }
 
-.carouselText
-{
+.carouselText {
+    color: #49111C;
     text-align: left;
+    font-size: 50px;
+    font-family: 'Kameron', serif;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
 }
 
-.logoTepa
-{
+.logoTepa {
     font-size: 30px;
     color: brown;
     border-color: aqua;
 }
 
-@media (max-width: 450px)
-{
+@media (max-width: 450px) {
     .carouselHeight img {
         min-height: 577px;
         object-fit: cover;
@@ -75,10 +131,8 @@
     }
 }
 
-@media (max-width: 1000px )
-{
-    .carouselImages
-    {
+@media (max-width: 1000px) {
+    .carouselImages {
         display: none;
     }
 }
@@ -91,14 +145,16 @@
     justify-content: center;
 } */
 
-.footChild
-{
+.footChild {
     display: grid;
     justify-content: center;
 }
 
-.footerBorder
-{
+.footerBackground {
+    background-color: #faeaed;
+}
+
+.footerBorder {
     background-color: brown;
     display: flex;
     justify-content: space-between;
@@ -124,35 +180,28 @@
     }
 } */
 
-.footerIcons
-{
+.footerIcons {
     max-height: 2rem;
     padding-left: 10px;
 }
 
-.footIconParentMargin
-{
+.footIconParentMargin {
     margin-left: 0;
 }
 
-.copyRight
-{
+.copyRight {
     max-height: 2rem;
     color: white;
 }
 
-@media (max-width: 426px)
-{
-    .footerIcons
-    {
+@media (max-width: 426px) {
+    .footerIcons {
         height: 25px;
     }
 }
 
-@media (max-width: 991px)
-{
-    .footerInfo
-    {
+@media (max-width: 991px) {
+    .footerInfo {
         display: none;
     }
 }
