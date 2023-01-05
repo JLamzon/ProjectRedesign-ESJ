@@ -31,10 +31,32 @@
 
 /* Carousel */
 
-.carouselHeight
+/* .homeHeight
 {
-    max-height: 700px;
-    object-fit: scale-down;
+    max-width: 100%;
+    max-height: 1080px;
+} */
+
+.carouselHeight img
+{
+    min-width: 100%;
+    max-height: 680px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.tacoCarousel
+{
+    max-width: 100%;
+    min-height: 576px;
+    viewport-fit:auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.carouselText
+{
+    text-align: left;
 }
 
 .logoTepa
@@ -44,7 +66,24 @@
     border-color: aqua;
 }
 
-/* footer */
+@media (max-width: 450px)
+{
+    .carouselHeight img {
+        min-height: 577px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1000px )
+{
+    .carouselImages
+    {
+        display: none;
+    }
+}
+
+/*------------------------------------------- footer */
 
 /* .footAlignText
 {
