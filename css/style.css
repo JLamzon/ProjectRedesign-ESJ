@@ -5,6 +5,7 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    max-width: 100%;
 }
 .navbar23{
     display: flex;
@@ -89,16 +90,14 @@ margin-top: 10%;
     
 }
 
+
 @media only screen and (max-width: 426px)
 {
-    .BGimage{
-        background-image: url(../assets/icons/2018-04-08.jpg) ;
-        background-position: center; 
-    }
-    .taquLogo
-    {
-        font-size: 10px;
-    }
+   .BGimage
+   {
+    background-image: url();
+    background-color: white;
+   }
 }
 @media only screen and (max-width: 768px){
 .font49{ 
@@ -133,4 +132,33 @@ margin-top: 10%;
 .taquLogo{
     padding-right: 51%;
 }
+
+}
+@media only screen and (max-width: 426px)
+{
+   .contactInfo
+   {
+    display: none;
+   }
+   .waterLogo{
+    display: none;
+   }
+   .reachUs{
+    display: none;
+   }
+   .taquLogo
+   {
+    padding-right: 23%;
+   }
+}
+@media only screen and (min-width:426px)
+{
+  .moLoc
+  {
+    display: none;
+  }  
+   .newImage
+   {
+    display: none;
+   }
 }
