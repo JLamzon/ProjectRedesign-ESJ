@@ -13,6 +13,11 @@
     overflow-x: hidden;
 } */
 
+@font-face {
+    font-family: MontaguSlab-VariableFont;
+    src: url(../assets/assets/MontaguSlab-VariableFont_opsz\,wght.ttf);
+}
+
 
 .NavSpacing {
     display: flex;
@@ -131,6 +136,8 @@
     font-size: 30px;
     color: brown;
     border-color: aqua;
+    font-family: MontaguSlab-VariableFont;
+    font-weight: bolder;
 }
 
 @media (max-width: 450px) {
