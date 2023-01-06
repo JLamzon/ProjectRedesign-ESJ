@@ -35,32 +35,17 @@
 
 /* ---------------------------------------Carousel */
 
-/* 
-#carouselExample .carousel-inner .item img
-{
-    height: 100vh;
-    width: 100%;
-}
-
-.carousel-inner .item > img
-{
-    -webkit-animation: thing 20s;
-    -o-animation: thing 20s;
-    animation: thing 20s;
-}
-
-@keyframes thing
-{
-    from{
-        transform: scale(1, 1);
-    }
-    to{
-        transform: scale(1.5, 1.5);
-    }
-} */
-
 .buttonParent {
     position: relative;
+}
+
+.btnMenu, .btnCallMe
+{
+    color: white;
+    font-size: 22px;
+    background-color: #49111C;
+    border-radius: 20px;
+    width: 8rem;
 }
 
 @media (min-width: 992px) {
@@ -164,13 +149,6 @@
 
 /*------------------------------------------- footer */
 
-/* .footAlignText
-{
-    display: flex;
-    justify-content: center;
-} */
-
-
 .footChild {
     display: grid;
     justify-content: center;
@@ -237,9 +215,9 @@
     }
 }
 
-@media (min-width: 455px) and (max-width: 991px) {
+@media (max-width: 991px) {
     .footerIcons {
-        height: 20px;
+        height: 32px;
     }
 
     .copyRight
