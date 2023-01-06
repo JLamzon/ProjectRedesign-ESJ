@@ -22,10 +22,7 @@
     text-align: start;
     padding-left: 5%;
     font-weight: bolder;
-    
-    
-    
-   
+    font-family: kameron;
 }
 .taquLogo
 {
@@ -33,6 +30,7 @@
 	-webkit-text-stroke: 2px #ad3400;
 	-webkit-text-fill-color: #ffa234;
     font-weight: bolder;
+    font-family: kameron;
     
     
 }
@@ -183,4 +181,8 @@ margin-top: 10%;
    {
     display: none;
    }
+  .botMo
+  {
+    display: none;
+  }
 }
