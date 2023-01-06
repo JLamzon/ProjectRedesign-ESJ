@@ -12,6 +12,7 @@
 }
 .no89{
    -webkit-text-fill-color: #ad3400;
+   font-family: montagu slab;
 }
 .tepaLogo
 {
@@ -51,6 +52,7 @@ margin-top: 10%;
 {
     -webkit-text-fill-color: #49111c;
    font-size: 550%;
+   font-family: montagu slab;
 }
 .contactInfo
 {
@@ -64,16 +66,71 @@ margin-top: 10%;
 {
     font-size: 450%;
     -webkit-text-fill-color: #49111c;
+    font-family: montagu slab;
     
 }
 .font47
 {
     font-size: 200%;
     -webkit-text-fill-color: #49111c;
+    font-family: montagu slab;
 }
 .font46
 {
-    font-size: 250%;
-    font-weight:400;
+    font-size: 200%;
     -webkit-text-fill-color: #49111c;
+    font-family: montagu slab;
+}
+.waterLogo
+{
+    margin-top: 15%;
+    display: flex;
+   
+    
+}
+
+@media only screen and (max-width: 426px)
+{
+    .BGimage{
+        background-image: url(../assets/icons/2018-04-08.jpg) ;
+        background-position: center; 
+    }
+    .taquLogo
+    {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 768px){
+.font49{ 
+    font-size: 30px;
+}
+.font47{
+    font-size: 15px;
+}
+.font46{
+    font-size: 15px;
+}
+.reachText{
+    font-size:50px;
+}
+.reachUs{
+    height: 150px;
+}
+.contactInfo{
+    height: 150px;
+}
+.BGimage{
+    height: 800px; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.tepaPic
+{
+    width: 60%;
+}
+.taquLogo{
+    padding-right: 51%;
+}
 }
