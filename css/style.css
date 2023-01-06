@@ -262,7 +262,7 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #FAEAED;
 }
 
 .imgdoordash {
@@ -297,30 +297,36 @@ p.main {
     text-align: center;
     font-size: 24px;
     font-family: 'MontaguSlab-VariableFont';
+    -webkit-text-fill-color: #49111c;
 }
 
 .row  {
     display: flex;
     font-family: 'MontaguSlab-VariableFont';
+    -webkit-text-fill-color: #49111c;
 }
 
 h3 {
     text-align: center;
     font-family: 'MontaguSlab-VariableFont';
+    -webkit-text-fill-color: #49111c;
 }
 
 h5 {
     font-family: 'MontaguSlab-VariableFont';
+    -webkit-text-fill-color: #49111c;
 }
 
 h2 {
     text-align: center;
     font-family: 'MontaguSlab-VariableFont';
+    -webkit-text-fill-color: #49111c;
 }
 
 h4 {
     font-family: 'MontaguSlab-VariableFont';
     text-align: center;
+    -webkit-text-fill-color: #49111c;
 }
 
 /*Elizar------------------------------------------------------*/
