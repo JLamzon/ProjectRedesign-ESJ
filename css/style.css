@@ -43,3 +43,193 @@ h3 {
     text-align: center;
 }
 
+
+.BGimage{
+    background-image: url("../assets/icons/o\ \(1\).jpg");
+    background-color: #cccccc; 
+    height: 1350px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    max-width: 100%;
+}
+.navbar23{
+    display: flex;
+    justify-content: end;
+}
+.no89{
+   -webkit-text-fill-color: #ad3400;
+   font-family: montagu slab;
+}
+.tepaLogo
+{
+	-webkit-text-stroke: 2px #ad3400;
+	-webkit-text-fill-color: white;
+    text-align: start;
+    padding-left: 5%;
+    font-weight: bolder;
+    font-family: kameron;
+}
+.taquLogo
+{
+	font-size: 34px;
+	-webkit-text-stroke: 2px #ad3400;
+	-webkit-text-fill-color: #ffa234;
+    font-weight: bolder;
+    font-family: kameron;
+    
+    
+}
+.headerContainer
+{
+    background-color: white;
+}
+.reachUs
+{
+ width: 50%;
+ height: 280px;
+    background: #d9d9d9 0% 0% no-repeat padding-box;
+opacity: 0.8;
+margin-left: 25%;
+margin-top: 10%;
+}
+.reachText
+{
+    -webkit-text-fill-color: #49111c;
+   font-size: 550%;
+   font-family: montagu slab;
+}
+.contactInfo
+{
+    height: 300px;
+    background: #d9d9d9 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    margin-top: 10%;
+
+}
+.font49
+{
+    font-size: 450%;
+    -webkit-text-fill-color: #49111c;
+    font-family: montagu slab;
+    
+}
+.font47
+{
+    font-size: 200%;
+    -webkit-text-fill-color: #49111c;
+    font-family: montagu slab;
+}
+.font46
+{
+    font-size: 200%;
+    -webkit-text-fill-color: #49111c;
+    font-family: montagu slab;
+}
+.waterLogo
+{
+    margin-top: 15%;
+    display: flex;
+   
+    
+
+}
+.newImage{
+    background-image: url(../assets/icons/2018-04-08.jpg);
+    background-position:center; 
+    background-position-x: 34%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 515px;
+}
+.moInfo
+{
+    background-color: black;
+    height: 160px;
+    opacity: 0.8;
+    -webkit-text-fill-color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+.moBot
+{
+    font-size: larger;
+    padding-top: 3%;
+    padding-right: 3%;
+}
+
+@media only screen and (max-width: 426px)
+{
+   .BGimage
+   {
+    background-image: url();
+    background-color: white;
+   }
+}
+@media only screen and (max-width: 768px){
+.font49{ 
+    font-size: 30px;
+}
+.font47{
+    font-size: 15px;
+}
+.font46{
+    font-size: 15px;
+}
+.reachText{
+    font-size:50px;
+}
+.reachUs{
+    height: 150px;
+}
+.contactInfo{
+    height: 150px;
+}
+.BGimage{
+    height: 800px; 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.tepaPic
+{
+    width: 60%;
+}
+.taquLogo{
+    padding-right: 51%;
+}
+
+}
+@media only screen and (max-width: 426px)
+{
+   .contactInfo
+   {
+    display: none;
+   }
+   .waterLogo{
+    display: none;
+   }
+   .reachUs{
+    display: none;
+   }
+   .taquLogo
+   {
+    padding-right: 23%;
+   }
+}
+@media only screen and (min-width:426px)
+{
+  .moLoc
+  {
+    display: none;
+  }  
+   .newImage
+   {
+    display: none;
+   }
+  .botMo
+  {
+    display: none;
+  }
+}
