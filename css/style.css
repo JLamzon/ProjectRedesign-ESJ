@@ -1,5 +1,3 @@
-/* NavBar */
-
 
 /* .navbar-Nav > *{
     text-align: left;
@@ -18,6 +16,10 @@
     src: url(../assets/assets/MontaguSlab-VariableFont_opsz\,wght.ttf);
 }
 
+@font-face {
+    font-family: Kameron-Regular;
+    src: url(../assets/assets/Kameron-Regular.ttf);
+}
 
 .NavSpacing {
     display: flex;
@@ -47,10 +49,11 @@
 .btnMenu, .btnCallMe
 {
     color: white;
-    font-size: 22px;
+    font-size: 25px;
     background-color: #49111C;
     border-radius: 20px;
     width: 8rem;
+    font-family: Kameron-Regular;
 }
 
 @media (min-width: 992px) {
@@ -70,7 +73,7 @@
         position: absolute;
         /*margin-left: 30%;*/
         z-index: 99;
-        top: 50%;
+        top: 52%;
         display: flex;
         justify-content: center;
     }
@@ -156,6 +159,24 @@
 
 /*------------------------------------------- footer */
 
+.footAlignText
+{
+    font-family: Kameron-Regular;
+    font-size: 14px;
+}
+
+.footTextHeader
+{
+    font-family: Kameron-Regular;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.footTextHeader > *
+{
+    font-size: 13px;
+}
+
 .footChild {
     display: grid;
     justify-content: center;
@@ -206,7 +227,7 @@
 .copyRight {
     max-height: 2rem;
     color: white;
-    font-family: 'Kameron', serif;
+    font-family: MontaguSlab-VariableFont;
 }
 
 @media (max-width: 454px) {
@@ -235,7 +256,7 @@
 
     .copyRight
     {
-
+        font-size: 11px;
         padding-left: 0;
     }
 
