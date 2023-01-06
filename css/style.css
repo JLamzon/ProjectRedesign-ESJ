@@ -1,3 +1,253 @@
+/* NavBar */
+
+
+/* .navbar-Nav > *{
+    text-align: left;
+} */
+
+/* html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+} */
+
+
+.NavSpacing {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+    .navRightMenu {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 991px) {
+    .navLeftMenu {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+/* ---------------------------------------Carousel */
+
+.buttonParent {
+    position: relative;
+}
+
+.btnMenu, .btnCallMe
+{
+    color: white;
+    font-size: 22px;
+    background-color: #49111C;
+    border-radius: 20px;
+    width: 8rem;
+}
+
+@media (min-width: 992px) {
+    .hover-slide {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .hover-slide-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .hover-slide {
+        position: absolute;
+        /*margin-left: 30%;*/
+        z-index: 99;
+        top: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hover-slide-2 {
+        position: absolute;
+        /*margin-left: 30%;*/
+        z-index: 99;
+        top: 40%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width: 767px)
+{
+    .hover-slide{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hover-slide-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+.carousel-item {
+    transition: transform 3.6s ease-in-out;
+}
+
+.carouselHeight img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.tacoCarousel {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.carouselText {
+    color: #49111C;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'Kameron', serif;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.logoTepa {
+    font-size: 30px;
+    color: brown;
+    border-color: aqua;
+}
+
+@media (max-width: 450px) {
+    .carouselHeight img {
+        height: 100vh;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1000px) {
+    .carouselImages {
+        display: none;
+    }
+}
+
+/*------------------------------------------- footer */
+
+.footChild {
+    display: grid;
+    justify-content: center;
+}
+
+.footerBackground {
+    background-color: #faeaed;
+}
+
+.footerBorder {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+/* .footerBorder
+{
+    padding-left: 2rem;
+    padding-right: 2rem;
+} */
+
+/* @media (max-width: 426)
+{
+    .footerBorder
+    {
+        max-height: 10rem;
+        display: flex;
+        flex-direction: row;
+    }
+} */
+
+.footerIcons {
+    max-height: 2rem;
+}
+
+.copyRight {
+    max-height: 2rem;
+    color: white;
+    font-family: 'Kameron', serif;
+}
+
+@media (max-width: 454px) {
+    .footerIcons {
+        height: 20px;
+    }
+
+    .copyRight
+    {
+        font-size: 10px;
+        padding-left: 0;
+    }
+
+    .footerBorder{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footerIcons {
+        height: 32px;
+    }
+
+    .copyRight
+    {
+        font-size: 10px;
+        padding-left: 0;
+    }
+
+    .footerBorder{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+@media (max-width: 991px){
+    .footerInfo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .footerIcons
+{
+    padding-left: 5px;
+}
+
+}
+
 body {
     background-color: lightgrey;
 }
@@ -132,6 +382,7 @@ margin-top: 10%;
     display: flex;
    
     
+
 
 }
 .newImage{
