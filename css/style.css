@@ -1,3 +1,48 @@
+body {
+    background-color: lightgrey;
+}
+
+.imgdoordash {
+    
+    width: 80px;
+    height: 80px;
+}
+
+.imggrubhub {
+    width: 80px;
+    height: 80px;
+}
+
+.imgpostmates {
+    width: 80px;
+    height: 80px;
+}
+
+.imgubereats {
+    width: 80px;
+    height: 68px;
+    
+}
+
+.img-fluid {
+        width: 2000px;
+        height: 500px;
+        object-fit: cover;
+}
+
+p.main {
+    text-align: center;
+    font-size: 24px;
+}
+
+.row  {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+}
+
 .BGimage{
     background-image: url("../assets/icons/o\ \(1\).jpg");
     background-color: #cccccc; 
@@ -86,6 +131,7 @@ margin-top: 10%;
     display: flex;
    
     
+
 }
 .newImage{
     background-image: url(../assets/icons/2018-04-08.jpg);
