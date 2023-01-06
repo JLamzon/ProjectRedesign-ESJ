@@ -100,7 +100,7 @@ margin-top: 10%;
 .moInfo
 {
     background-color: black;
-    height: 280px;
+    height: 160px;
     opacity: 0.8;
     -webkit-text-fill-color: white;
     font-size: 150%;
@@ -109,6 +109,7 @@ margin-top: 10%;
 .moBot
 {
     font-size: larger;
+    padding-top: 3%;
 }
 
 @media only screen and (max-width: 426px)
