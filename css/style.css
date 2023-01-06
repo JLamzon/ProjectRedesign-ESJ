@@ -89,7 +89,24 @@ margin-top: 10%;
    
     
 }
-
+.newImage{
+    background-image: url(../assets/icons/2018-04-08.jpg);
+    background-position:center; 
+    background-position-x: 34%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 515px;
+}
+.moInfo
+{
+    background-color: black;
+    height: 300px;
+    opacity: 0.8;
+}
+.moBot
+{
+    font-size: larger;
+}
 
 @media only screen and (max-width: 426px)
 {
